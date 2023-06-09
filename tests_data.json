@@ -1,0 +1,21 @@
+[
+  {"model": "publisher", "pk": 1, "fields": {"name": "Addison-Wesley"}},
+  {"model": "publisher", "pk": 2, "fields": {"name": "Manning Publications"}},
+  {"model": "book", "pk": 1, "fields": {"title": "Clean Code: A Handbook of Agile Software Craftsmanship", "id_publisher": 1}},
+  {"model": "book", "pk": 2, "fields": {"title": "Design Patterns: Elements of Reusable Object-Oriented Software", "id_publisher": 2}},
+  {"model": "shop", "pk": 1, "fields": {"name": "Barnes & Noble"}},
+  {"model": "shop", "pk": 2, "fields": {"name": "Books-A-Million"}},
+  {"model": "shop", "pk": 3, "fields": {"name": "Waterstones"}},
+  {"model": "stock", "pk": 1, "fields": {"id_shop": 1, "id_book": 1, "count": 20}},
+  {"model": "stock", "pk": 2, "fields": {"id_shop": 2, "id_book": 2, "count": 15}},
+  {"model": "stock", "pk": 3, "fields": {"id_shop": 3, "id_book": 1, "count": 25}},
+  {"model": "stock", "pk": 4, "fields": {"id_shop": 1, "id_book": 2, "count": 5}},
+  {"model": "stock", "pk": 5, "fields": {"id_shop": 2, "id_book": 1, "count": 12}},
+  {"model": "stock", "pk": 6, "fields": {"id_shop": 3, "id_book": 2, "count": 8}},
+  {"model": "sale", "pk": 1, "fields": {"price": "30.00", "date_sale": "2018-10-25T11:30:40.810Z", "count": 8, "id_stock": 1}},
+  {"model": "sale", "pk": 2, "fields": {"price": "25.50", "date_sale": "2018-10-25T11:45:15.921Z", "count": 5, "id_stock": 2}},
+  {"model": "sale", "pk": 3, "fields": {"price": "20.99", "date_sale": "2018-10-25T12:10:20.415Z", "count": 10, "id_stock": 3}},
+  {"model": "sale", "pk": 4, "fields": {"price": "12.99", "date_sale": "2018-10-25T12:25:05.623Z", "count": 3, "id_stock": 4}},
+  {"model": "sale", "pk": 5, "fields": {"price": "18.50", "date_sale": "2018-10-25T12:45:30.738Z", "count": 6, "id_stock": 5}},
+  {"model": "sale", "pk": 6, "fields": {"price": "15.75", "date_sale": "2018-10-25T13:05:55.912Z", "count": 4, "id_stock": 6}}
+]
